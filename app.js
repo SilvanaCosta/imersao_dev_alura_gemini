@@ -31,6 +31,10 @@ function pesquisar() {
             <h4>Alguns Roteiros:</h4>
             <ul class="lista-roteiros">
               <li>${dado.roteiro1}</li>
+              <li>${dado.roteiro2}</li>
+              <li>${dado.roteiro3}</li>
+              <li>${dado.roteiro4}</li>
+              <li>${dado.roteiro5}</li>
               </ul>
             <button class="wiki-button"><a href="${dado.link}" target="_blank">Wikipédia</a></button>
           </div>
