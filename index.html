@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiros Prontos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">RP</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Roteiros Prontos</a></li>
+                <li><a href="#">Monte seu Roteiro</a></li>
+                <li><a href="#">Favoritos</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <section class="roteiros">
+            <div class="menu-roteiro">
+                <h3>Roteiros Prontos</h3>
+                <ul class="menu-links">
+                    <li><button><a href="#">Bahamas</a></button></li>
+                    <li><button><a href="#">Noruega</a></button></li>
+                    <li><button><a href="#">Rio de Janeiro</a></button></li>
+                    <li><button><a href="#">Nova York</a></button></li>
+                    <li><button><a href="#">Servilha</a></button></li>
+                </ul>
+            </div>
+        </section>
+        <section class="ofertas">
+            <h3>Ofertas de Viagem</h3>
+            <ul class="links-secundarios">
+                <li><button><a href="#">Promoção Paris - 30% off</a></button></li>
+                <li><button><a href="#">Passagens para Nova York a partir de R$1500</a></button></li>
+                <li><button><a href="#">Pacote para Rio de Janeiro 5 dias com desconto</a></button></li>
+            </ul>
+        </section>
+        <section class="dicas">
+            <h3>Dicas de Viagem</h3>
+            <ul class="links-secundarios">
+                <li><button><a href="#">O que levar para uma viagem internacional</a></button></li>
+                <li><button><a href="#">10 dicas para economizar em viagens</a></button></li>
+                <li><button><a href="#">Cuidados com documentos ao viajar</a></button></li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+        <div>
+            <img src="/imagens/bahamas-wallpaper-2560x1024.jpg" alt="Bahamas" class="imagem-roteiro">
+        </div>
+        <section class="hero">
+            <div class="hero-content">
+                <input type="text" class="search-input" id="campo-pesquisa" placeholder="Procure seus sonhos...">
+                <button class="search-button" onclick="pesquisar()">Buscar</button>
+            </div>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+        <section class="destinos">
+            <h3>Destinos</h3>
+            <div class="destinos-card">
+                <div class="card">
+                    <img src="/imagens/maldivas.jpeg" alt="Destino 1" class="card-img">
+                    <div class="card-content">
+                        <h2>Maldivas</h2>
+                        <p>Descubra as praias e a cultura vibrante.</p>
+                        <button class="card-btn">Ver Roteiro</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/imagens/Eiffel-Tower-8.jpeg" alt="Destino 2" class="card-img">
+                    <div class="card-content">
+                        <h2>Paris</h2>
+                        <p>Explore a cidade do amor e seus pontos turísticos famosos.</p>
+                        <button class="card-btn">Ver Roteiro</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/imagens/novaIork.jpeg" alt="Destino 3" class="card-img">
+                    <div class="card-content">
+                        <h2>Nova York</h2>
+                        <p>A cidade que nunca dorme está esperando por você.</p>
+                        <button class="card-btn">Ver Roteiro</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="resultados-roteiros" id="resultados-roteiros">
+        </section>
+    </main>
+    <footer>
+        <p class="texto-footer">
+            Copyright © 2024 - Roteiros Prontos. Todos os direitos reservados.
+        </p>
+        <p class="texto-footer">
+            Silvana Paiva - SP
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
